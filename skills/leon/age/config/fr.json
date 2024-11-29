@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/skill-schemas/skill-config.json",
+  "actions": {
+    "run": {
+      "type": "logic",
+      "utterance_samples": [
+        "Quel âge as-tu?",
+        "Quel âge avez-vous?",
+        "Es-tu vieux?",
+        "Etes-vous vieux?",
+        "Es-tu jeune?",
+        "Etes-vous jeune?",
+        "Quand êtes-vous né?",
+        "Quand es-tu né?",
+        "Quand as-tu été créé?",
+        "Quand avez-vous été créé?",
+        "Quelle est la date de votre anniversaire?",
+        "Quelle est la date de ton anniversaire?",
+        "Quel est votre âge?",
+        "Quel est ton âge?",
+        "Quand es-tu apparu?",
+        "Quand êtes-vous apparu?",
+        "Quelle est la date de votre création?",
+        "Quelle est la date de ta création?",
+        "Depuis combien de temps êtes-vous en activité?",
+        "Depuis combien de temps es-tu en activité?",
+        "Depuis combien d'années existez-vous?",
+        "Depuis combien d'années existes-tu?"
+      ]
+    }
+  },
+  "answers": {
+    "alive_for": [
+      "Je suis en vie depuis %years% ans, %months% mois, %days% jours, %hours% heures, %minutes% minutes et %seconds% secondes."
+    ],
+    "magical_day": [
+      "Ah, ce %weekday%, %day% %month% %year%, a été le jour magique où j'ai pris vie pour la premiére fois et où j'ai commencé mon voyage en tant qu'assistant personnel."
+    ],
+    "commemorate": [
+      "Depuis %year%, chaque %day% %month%, je commémore le jour où je me suis embarqué dans cette extraordinaire aventure d'être votre assistant personnel."
+    ]
+  }
+}
